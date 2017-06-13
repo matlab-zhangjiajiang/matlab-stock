@@ -6,6 +6,6 @@ enddate ='20170613';
 opendate = stockdata(:,1);
 closeprice = stockdata(:,5);
 
-xlable('交易时间点');
-ylable('收盘价');
-plot(opendate,closeprice,'r+:'); %%线形为点画线、颜色为红色、数据点标记为加号
+xlabel('交易时间点');
+ylabel('收盘价');
+plot(opendate,closeprice,'r'); %%线形为点画线、颜色为红色、数据点标记为加号
