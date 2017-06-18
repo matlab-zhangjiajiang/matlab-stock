@@ -1,2 +1,0 @@
-[stocklist,stocklistfull] = GetStockList_Web;
-StockCode
