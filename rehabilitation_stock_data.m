@@ -12,5 +12,5 @@ figure('Position',[scrsize(3)*1/4 scrsize(4)*1/6 scrsize(3)*4/5 scrsize(4)*3/4])
 %%%%%同一个窗口初始化一个线性数据展示%%%%%%
 axl = subplot(211);
 OHLC = stockdatadouble(:,2:5);  %%%初始化K线图数据
-KplotNew(OHLC);
+%%KplotNew(OHLC);
 
